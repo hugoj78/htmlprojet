@@ -1,0 +1,494 @@
+/*****CSS UTF-8****/
+
+body{
+	background-color: white;	
+}
+main{
+	font-family: Arial, sans-serif;
+}
+
+.row{
+	text-align: center;
+	font-size: 	20px;
+	color: white;
+	line-height: 	20px;	
+}
+
+.col1{
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+.img1{
+	background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/bg-1.jpg) no-repeat center center;
+	background-size: cover;
+}
+.div1{
+	font-size: 20px;
+}
+
+.titre1{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	color:#2E2E2E;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	text-align: left;
+}
+
+.titre2{
+	text-align:center;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+	font-size: 15px;
+	color: #2E2E2E;
+	line-height: 25px;
+}
+
+img{
+	transition: transform 0.2s ease-in-out;
+	-moz-transition: -moz-transform 0.2s ease-in-out;
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+}
+
+.titre3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	color:#2E2E2E;
+	text-transform: uppercase;
+	font-family: Arial Narrow, sans-serif;
+	text-align: left;
+}
+.img3{
+	background: url(../images/pattern-1.png) no-repeat center center;
+	background-size:cover;
+}
+.div3{
+	height: 550px;
+	width: auto;
+	font-size: 20px;
+}
+
+#partie6 input{
+	width: 150px;
+	height: 50px;
+	font-size: 5px;
+	color:#BDBDBD;
+}
+
+header nav section input{
+	width: 250px;
+	height: 50px;
+	color: black;
+}
+
+.col-md-6 input{
+	width: 460px;
+	height: 40px;
+}
+
+select{
+	width: 100%;
+	height: 50px;
+	font-size: 5px;
+	color: grey;
+}
+#buttonNoir{
+	color: white;
+	background-color: black;
+	border:none;
+	outline: none;
+	padding: 10px 30px;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+
+.div4{
+	width: auto;
+	height: 400px;
+}
+#buttonBlanc{
+	color: black;
+	background-color: white;
+	border:none;
+	outline: none;
+	padding: 10px 30px;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.img4{
+	background: url(../images/bg-3.jpg) no-repeat center center	;
+	background-size: cover;
+}
+h2{
+	text-transform: uppercase;
+}
+.col4{
+	margin-top: 75px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.row{
+	text-align: center;
+}
+
+.carre{
+	background: black;
+	width: 100%;
+	height: 200px;
+	border: 6px double white;
+	-moz-box-sizing: border-box;
+}
+
+
+.placement{
+	margin-bottom: 70px;
+}
+
+.text p{
+	color: #FFF;
+}
+
+.text .heure{
+	font-size: 12px;
+	margin-top: 55px;
+	margin-bottom: 5px;
+}
+
+.text .titre{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.text .lieu{
+	font-size: 12px;
+	margin-top: -15px;
+}
+
+.fond{
+	background: #F8F8F8;
+	background-size: cover;
+	height: auto;
+}
+
+.partMargin{
+	margin-bottom: 100px;
+}
+.partOpa{
+	opacity: 0.3;
+}
+.videgris{
+	height: 50px;
+}
+
+.texteGris{
+	color:grey;
+	font-size: 12px;
+	text-align: left;
+}
+.texte{
+	margin-top:-15px;
+	color:black;
+	font-size: 12px;
+	text-align: left;
+}
+iframe{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.footer{
+	background: black;
+}
+.textfooter{
+	color: white;
+	margin-top: 30px;
+}
+#social{
+    position: relative;
+}
+
+footer{
+	width:0 auto;
+	height: 150px;
+	text-align: center;
+	background: black;
+}
+footer #text-footer{
+	margin-top: 25px;
+	display: inline-block;
+	width: 900px;
+	height: 50px;
+	color: white;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	line-height: 160%;
+}
+footer #sprites-footer{
+	margin-top: 15px;
+	display: inline-block;
+	height: 30px;
+	width: 200px;
+}
+footer #sprites-footer .twitter{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	float: left;
+	background-image: url('../images/reseaux-sociaux.png');
+	background-position: 0px 0px;
+	-webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+}
+footer #sprites-footer .twitter:hover{
+	width: 30px;
+	height: 30px;
+	float: left;
+	background-image: url('../images/reseaux-sociaux.png');
+	background-position: 0px 30px;
+}
+footer #sprites-footer .facebook{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	float: left;
+	background-image: url('../images/reseaux-sociaux.png');
+	background-position: 90px 0px;
+	-webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+}
+footer #sprites-footer .facebook:hover{
+	width: 30px;
+	height: 30px;
+	float: left;
+	background-image: url('../images/reseaux-sociaux.png');
+	background-position: 90px 30px;
+}
+footer #sprites-footer .linkedin{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	float: left;
+	background-image: url('../images/reseaux-sociaux.png');
+	background-position: 60px 0px;
+	-webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+}
+footer #sprites-footer .linkedin:hover{
+	width: 30px;
+	height: 30px;
+	float: left;
+	background-image: url('../images/reseaux-sociaux.png');
+	background-position: 60px 30px;
+}
+footer #sprites-footer .googleplus{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	float: left;
+	background-image: url('../images/reseaux-sociaux.png');
+	background-position: 30px 0%;
+	-webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+}
+footer #sprites-footer .googleplus:hover{
+	width: 30px;
+	height: 30px;
+	float: left;
+	background-image: url('../images/reseaux-sociaux.png');
+	background-position: 30px 30px;
+}
+
+
+.image{
+	width: auto;
+	height: 650px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.button {
+    background-color: #fff;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.deco{
+	margin-top: 15px;
+}
+.deco2{
+	list-style-type: none;
+	float: right;
+	display: block;
+	color: #fff;
+	margin-right:75px;
+	margin-top: 15px;
+	font-size: 15px;
+	font-weight: bold; 
+}
+
+.deco2 a{
+	color: white;
+}
+
+.deco3{
+	font-weight: bold;
+}
+.deco4{
+	color:#fff;
+}
+
+.sub{
+	list-style: none;
+}
+
+section{
+	text-align: center;
+	padding: 175px 0 0 0px;
+	font-size: 22px;
+	color: #fff;
+}
+
+body{
+	font-family: 'Folio_light';
+}
+
+#shadow{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));	
+}
+
+body header{
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	height: 620px;
+	text-align: center;
+}
+
+#bg-1{
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/bg-1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width: auto;
+	height: 650px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 150px;
+}
+
+main div h1{
+	font-weight: bold;
+}
+
+#color-grey{
+	color: grey;
+}
+
+#color-white{
+	color: white;
+}
+
+main div ul{
+	line-height: 200%;
+	font-weight: bold;
+	list-style: none;
+}
+
+main div ul li:before{
+	content: ">";
+	margin-right: 15px;
+}
+
+#left{
+	float: left;
+	width: 50%;
+	padding: 50px;
+	line-height: 150%;
+}
+
+#right{
+	margin-left: 50%;
+	padding: 50px;
+	line-height: 150%;
+}
+
+#right ul{
+	padding: 0;
+}
+
+.about-us{
+	width: 100%;
+}
+
+.social{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+}
+
+#partie1{
+	background: white;
+}
+
+
+
+#partie6{
+	background-image: url("../images/bg-2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	width: 0 auto;
+	height: 275px;
+	text-align: center;
+}
+#partie6 #text-partie6{
+	display: inline-block;
+	width: 950px;
+	height: 150px;
+	position: relative;
+	bottom: 205px;
+	color: white;
+	font-family: 'Arial', sans-serif;
+}
+#partie6 #text-partie6 h2{
+	font-size: 19px;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+#partie6 #text-partie6 p{
+	font-size: 13px;
+	font-weight: 100;
+	margin-top: 10px;
+}
+#partie6 #text-partie6 input{
+	background-color: #fff;
+    border: none;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
