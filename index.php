@@ -18,9 +18,8 @@
 	<header>
 
 		<nav>
-			<div class="container">
 			<div class="container-fluid">
-			<img class="deco" src="images/logo.png">
+			<img class="deco img-responsive" src="images/logo.png">
 				<ul class="deco2">
 					<li class="deco2">
 						<a href="#eventpartner" class="js-scrollTo">PARTNER</a>
@@ -49,17 +48,16 @@
 <!-- FIN HEADER -->
 
 <!-- ABOUT US ET WHAT IS YOUR GOAL -->
-<div class="container">
 <div class="container-fluid">	
-	<main>
-		<div id="partie1">	
-			<div id="left">
+	<main class="row">
+		<div id="partie1" class="col-md-12">	
+			<div class="col-md-6">
 				<h1>ABOUT US</h1>
 				<p id="color-grey">You've insipired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
 				<img class='about-us' src="images/about-us.jpg">
 			</div>
 
-			<div id="right">
+			<div class="col-md-6">
 				<h1>WHAT IS OUR GOAL ?</h1>
 				<p id="color-grey">You've insipired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
 				<ul>
