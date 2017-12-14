@@ -50,7 +50,7 @@
                 <div id="lefts" class="col-md-6">
                     <h2>ABOUT US</h2>
                     <p id="color-grey">You've insipired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
-                    <img class='about-us' src="images/about-us.jpg">
+                    <img class='about-us img-responsive' src="images/about-us.jpg">
                 </div>
 
                 <div class="col-md-6">
@@ -70,10 +70,10 @@
             <div class="img1 div1">
                 <div class="row">
                     <div class="offset-2"></div>
-                    <div class="col-md-2"><img src="images/calendar.png"><br><br>2015<br>June 25</div>
-                    <div class="col-md-2"><img src="images/location.png"><br><br>California<br>USA</div>
-                    <div class="col-md-2"><img src="images/tickets.png"><br><br>150<br>Tickets</div>
-                    <div class="col-md-2"><img src="images/speakers.png"><br><br>06<br>Speakers</div>
+                    <div class="col-md-2"><img class="img-responsive" src="images/calendar.png"><br><br>2015<br>June 25</div>
+                    <div class="col-md-2"><img class="img-responsive" src="images/location.png"><br><br>California<br>USA</div>
+                    <div class="col-md-2"><img class="img-responsive" src="images/tickets.png"><br><br>150<br>Tickets</div>
+                    <div class="col-md-2"><img class="img-responsive" src="images/speakers.png"><br><br>06<br>Speakers</div>
                 </div>		
             </div>
             <!-- FIN PETIT LOGO -->
@@ -213,16 +213,16 @@
                         <div class="titre1" id="eventpartner">EVENT partner</div></div>
 
                     <div class="row partMargin partOpa">
-                        <div class="col-md-3"><img src="images/partner-1.png"></div>
-                        <div class="col-md-3"><img src="images/partner-2.png"></div>
-                        <div class="col-md-3"><img src="images/partner-3.png"></div>
-                        <div class="col-md-3"><img src="images/partner-4.png"></div>
+                        <div class="col-md-3"><img class="img-responsive" src="images/partner-1.png"></div>
+                        <div class="col-md-3"><img class="img-responsive" src="images/partner-2.png"></div>
+                        <div class="col-md-3"><img class="img-responsive" src="images/partner-3.png"></div>
+                        <div class="col-md-3"><img class="img-responsive" src="images/partner-4.png"></div>
                     </div>
                     <div class="row partOpa">
-                        <div class="col-md-3"><img src="images/partner-5.png"></div>
-                        <div class="col-md-3"><img src="images/partner-6.png"></div>
-                        <div class="col-md-3"><img src="images/partner-7.png"></div>
-                        <div class="col-md-3"><img src="images/partner-8.png"></div>
+                        <div class="col-md-3"><img class="img-responsive" src="images/partner-5.png"></div>
+                        <div class="col-md-3"><img class="img-responsive" src="images/partner-6.png"></div>
+                        <div class="col-md-3"><img class="img-responsive" src="images/partner-7.png"></div>
+                        <div class="col-md-3"><img class="img-responsive" src="images/partner-8.png"></div>
                     </div>
                     <div class="videgris"></div>
                 </div>
@@ -276,6 +276,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
         <!-- FIN SCRIPT JAVASCRIPT -->
 
